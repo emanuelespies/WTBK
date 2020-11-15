@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicityAny": true,
+    "module": "esnext",
+    "target": "es2017",
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "lib": ["es2017", "dom"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
